@@ -1,0 +1,68 @@
+* {
+  box-sizing : border-box;
+  margin     : 0;
+  padding    : 0;
+}
+
+#mi_size_container.hidden {
+  width    : 1px;
+  height   : 1px;
+  overflow : hidden;
+}
+
+#mi_size_container.hidden * {
+  visibility : hidden !important;
+  width      : 1px !important;
+  height     : 1px !important;
+  position   : absolute;
+  left       : -999px;
+}
+
+/***********
+Utilities
+**************/
+.hidden {
+  width    : 1px;
+  height   : 1px;
+  overflow : hidden;
+}
+
+.hidden * {
+  visibility : hidden !important;
+  width      : 1px !important;
+  height     : 1px !important;
+  position   : absolute;
+  left       : -999px;
+}
+
+.clamp-line-2 {
+  display            : -webkit-box;
+  -webkit-line-clamp : 2;
+  -webkit-box-orient : vertical;
+  overflow           : hidden;
+}
+
+/***********
+Project Styles
+**************/
+
+#mi_size_container {
+  float    : left;
+  position : relative;
+}
+
+/***********
+Desktop Styles
+**************/
+
+#desktop {
+  float : left;
+}
+
+/***********
+Mobile Styles
+**************/
+
+#mobile {
+  float : left;
+}
